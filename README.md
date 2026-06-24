@@ -50,9 +50,11 @@ During this internship, practical experience was gained across the following eng
 ```text
 CodeSoft/
 ├── codesoft_task1/
-│
+│   ├── readme.md
+|
 ├── codesoft_task1/
-│
+│   ├── readme.md
+|
 └── README.md
 ```
 
