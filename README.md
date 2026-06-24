@@ -1,97 +1,81 @@
-```md
-# CodeSoft Internship Projects
+````md
+# 🚀 CodeSoft Internship Projects
 
-Welcome to my **CodeSoft Internship** repository. This repository contains the projects I completed during my internship at **CodeSoft**. These projects helped me strengthen my knowledge of software development, problem-solving, and full-stack application development.
+## Web Development Internship
 
-## Projects
-
-### 1. E-Commerce Website
-
-#### Overview
-The **E-Commerce Website** is a modern online shopping platform where users can browse products, view product details, add items to the cart, and place orders. The project focuses on creating a user-friendly shopping experience with an attractive interface and responsive design.
-
-#### Key Features
-- Product listing and categories
-- Product details page
-- Shopping cart functionality
-- Responsive user interface
-- User-friendly navigation
-
-#### Technologies Used
-- React
-- CSS
-- Node.js
-- Express.js
-- MongoDb
-- RestApi
-- JWT Authentication
-- Bcrypt
-
+This repository contains the projects I completed during my **CodeSoft Web Development Internship**. These projects demonstrate my knowledge of full-stack web development using the MERN Stack.
 
 ---
 
-### 2. 📋 Project Management System
+# 🛒 E-Commerce Website
 
-#### Overview
-The **Project Management System** is designed to help users organize and manage projects efficiently. It allows users to create projects, manage tasks, monitor progress, and improve workflow through a simple and intuitive interface.
+## Overview
 
-#### Key Features
-- Create and manage projects
-- Add, update, and delete tasks
-- Track project progress
-- Organized dashboard
-- Responsive and clean UI
+The **E-Commerce Website** is a full-stack online shopping platform where users can browse products, add items to their cart, manage orders, and securely authenticate using JWT.
 
-#### Technologies Used
+### Technologies Used
+
 - React
 - CSS
 - Node.js
 - Express.js
-- MongoDb
-- RestApi
+- MongoDB
+- REST API
 - JWT Authentication
 - Bcrypt
 
 ---
 
-## Internship Learning Outcomes
+# 📋 Project Management System
 
-During this internship at **CodeSoft**, I gained practical experience in:
+## Overview
 
-- Building responsive web applications
-- Writing clean and maintainable code
-- Implementing real-world project structures
-- Improving UI/UX design skills
-- Strengthening problem-solving abilities
-- Managing projects using Git and GitHub
+The **Project Management System** is a full-stack application that allows users to create projects, manage tasks, monitor progress, and organize work efficiently through a clean and responsive interface.
+
+### Technologies Used
+
+- React
+- CSS
+- Node.js
+- Express.js
+- MongoDB
+- REST API
+- JWT Authentication
+- Bcrypt
 
 ---
 
-## Repository Structure
+# 📚 What I Learned
 
-```
+- MERN Stack Development
+- REST API Development
+- Authentication with JWT
+- Password Encryption using Bcrypt
+- Responsive UI Design
+- Git & GitHub Workflow
 
+---
+
+# 📁 Repository Structure
+
+```text
 CodeSoft/
 ├── E-Commerce/
-│   ├── client-side
-│   ├── server-side
+│   ├── client-side/
+│   └── server-side/
 │
 ├── Project-Management-System/
-│   ├── client-side
-│   ├── server-side
+│   ├── client-side/
+│   └── server-side/
 │
 └── README.md
-
 ```
 
 ---
 
-## Acknowledgement
+# 👨‍💻 Author
 
-I would like to thank **CodeSoft** for providing this internship opportunity and allowing me to work on practical projects that enhanced my web development skills.
+**Abhishek Mevada**
 
----
-**Author:** Abhishek Mevada
-**Internship:** CodeSoft Web Development Internship
-**Internship:** CodeSoft Web Development Internship
-```
+**CodeSoft Web Development Intern**
+````
