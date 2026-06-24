@@ -1,62 +1,51 @@
-````md
-# 🚀 CodeSoft Internship Projects
+# CodeSoft Internship Projects
 
 ## Web Development Internship
 
-This repository contains the projects I completed during my **CodeSoft Web Development Internship**. These projects demonstrate my knowledge of full-stack web development using the MERN Stack.
+This repository contains the projects completed during the CodeSoft Web Development Internship. These projects demonstrate core full-stack web development competencies using the MERN Stack.
 
 ---
 
-# 🛒 E-Commerce Website
+## E-Commerce Website
 
-## Overview
-
-The **E-Commerce Website** is a full-stack online shopping platform where users can browse products, add items to their cart, manage orders, and securely authenticate using JWT.
+### Overview
+The E-Commerce Website is a full-stack online shopping platform where users can browse products, add items to their cart, manage orders, and securely authenticate using JSON Web Tokens (JWT).
 
 ### Technologies Used
-
-- React
-- CSS
-- Node.js
-- Express.js
-- MongoDB
-- REST API
-- JWT Authentication
-- Bcrypt
+* **Frontend:** React, CSS, Responsive UI Design
+* **Backend:** Node.js, Express.js, REST API
+* **Database:** MongoDB
+* **Security:** JWT Authentication, Bcrypt Password Encryption
 
 ---
 
-# 📋 Project Management System
+## Project Management System
 
-## Overview
-
-The **Project Management System** is a full-stack application that allows users to create projects, manage tasks, monitor progress, and organize work efficiently through a clean and responsive interface.
+### Overview
+The Project Management System is a collaborative full-stack application that allows administrators and members to create projects, manage granular tasks, monitor development progress, and organize team workflows efficiently.
 
 ### Technologies Used
-
-- React
-- CSS
-- Node.js
-- Express.js
-- MongoDB
-- REST API
-- JWT Authentication
-- Bcrypt
+* **Frontend:** React, CSS, Responsive UI Design
+* **Backend:** Node.js, Express.js, REST API
+* **Database:** MongoDB
+* **Security:** JWT Authentication, Bcrypt Password Encryption
 
 ---
 
-# 📚 What I Learned
+## Key Learning Outcomes
 
-- MERN Stack Development
-- REST API Development
-- Authentication with JWT
-- Password Encryption using Bcrypt
-- Responsive UI Design
-- Git & GitHub Workflow
+During this internship, practical experience was gained across the following engineering domains:
+
+| Domain | Core Skills Developed |
+| :--- | :--- |
+| **Full-Stack Development** | MERN Stack architecture, state management, client-server integration |
+| **API Architecture** | Designing and testing structured RESTful API endpoints |
+| **Security & Auth** | Implementation of secure JWT authentication workflows and Bcrypt password hashing |
+| **DevOps & Workflow** | Version control systems, clean repository structures, Git & GitHub deployment loops |
 
 ---
 
-# 📁 Repository Structure
+## Repository Structure
 
 ```text
 CodeSoft/
@@ -73,9 +62,9 @@ CodeSoft/
 
 ---
 
-# 👨‍💻 Author
+Acknowledgement I would like to thank **CodeSoft** for providing this internship opportunity and allowing me to work on practical projects that enhanced my web development skills. 
 
-**Abhishek Mevada**
+### Author: Abhishek Mevada
+### Internship: CodeSoft Web Development Internship
 
-**CodeSoft Web Development Intern**
-````
+---
