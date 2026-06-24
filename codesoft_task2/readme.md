@@ -1,24 +1,62 @@
-# E-Commerce MERN Stack Project
+# Project Management Tool
 
-A modern, full-stack E-Commerce web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This project delivers essential e-commerce functionalities such as secure product browsing, user authentication, interactive cart management, and order handling.
+A full-stack Project Management Tool built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). This application helps teams manage projects efficiently by allowing administrators to create projects, assign tasks, monitor progress, and track completion while enabling members to manage and update their assigned work.
 
 ---
 
 ## Live Demo & Source Code
 
-- **Live Website:** [Visit Live Site](https://ecommerce85.netlify.app)
-- **GitLab Repository:** [View Source Code](https://gitlab.com/abhishekmevada/ecommerce)
+- **Live Website:** [Visit Live Site](https://project-management-system-058.netlify.app)
+- **GitLab Repository:** [View Source Code](https://gitlab.com/abhishekmevada/project-management-system)
 
 ---
 
 ## Features
 
-* **User Authentication:** Secure Login and Registration flow.
-* **Product Management:** Dynamic product listing with a comprehensive details page.
-* **Cart Management:** Add items to cart, modify quantities, and remove products seamlessly.
-* **Order Placement:** Structured checkout and basic order tracking system.
-* **Fully Responsive:** Beautifully optimized UI for both Mobile and Desktop screens.
-* **REST API Integration:** Clean communication between the React frontend and Node/Express backend.
+### Authentication
+* User Registration and Login
+* JWT Authentication with Password Encryption (bcrypt)
+* Role-Based Access Control (Admin & Member)
+
+### Admin Features
+* Create, edit, and delete projects
+* Add team members and assign tasks to members
+* View, open, and monitor every assigned task details
+* View overall project statistics and track task progress
+
+### Member Features
+* View assigned tasks and project details
+* Read task descriptions and check deadlines
+* Update task status and track personal task progress
+
+---
+
+## Task Management
+
+Each task contains:
+* Title & Description
+* Project Name
+* Assigned Member & Created By
+* Priority (Low / Medium / High)
+* Status (Pending / In Progress / Complete)
+* Deadline & Created Date
+
+---
+
+## Project Tracking
+
+The dashboard automatically tracks:
+* Total Projects & Total Tasks
+* Completed, Pending, and In Progress Tasks
+* Project Completion Percentage
+
+Project status is calculated automatically based on progress:
+
+| Completion | Status |
+| :--- | :--- |
+| 0% | Not Started |
+| 1–99% | In Progress |
+| 100% | Completed |
 
 ---
 
@@ -26,9 +64,10 @@ A modern, full-stack E-Commerce web application built using the MERN stack (Mong
 
 | Layer | Technologies |
 | :--- | :--- |
-| **Frontend** | React.js, HTML5, CSS3, JavaScript, Tailwind CSS |
+| **Frontend** | React.js, React Router, Axios, Tailwind CSS |
 | **Backend** | Node.js, Express.js |
-| **Database** | MongoDB |
+| **Database** | MongoDB, Mongoose |
+| **Authentication** | JWT (JSON Web Token), bcrypt |
 | **Tools** | GitHub (Version Control), Postman (API Testing) |
 
 ---
@@ -36,12 +75,16 @@ A modern, full-stack E-Commerce web application built using the MERN stack (Mong
 ## Project Structure
 
 ```text
-project-root/
+project-management-tool/
 │
-├── client-side/       # Frontend (React application)
+├── client-side/
+│   ├── src/
+│   ├── public/
+│   └── package.json
 │
-├── server-side/       # Backend (Node + Express server)
-│   ├── db/            # MongoDB Schemas / Database Models
-│   └── index.js       # Server entry point
+├── server-side/
+│   ├── db/
+│   ├── package.json
+│   └── index.js
 │
-└── README.md          # Project Documentation
+└── README.md
