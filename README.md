@@ -49,13 +49,9 @@ During this internship, practical experience was gained across the following eng
 
 ```text
 CodeSoft/
-├── E-Commerce/
-│   ├── client-side/
-│   └── server-side/
+├── codesoft_task1/
 │
-├── Project-Management-System/
-│   ├── client-side/
-│   └── server-side/
+├── codesoft_task1/
 │
 └── README.md
 ```
