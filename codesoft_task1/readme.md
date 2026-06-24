@@ -45,3 +45,12 @@ project-root/
 │   └── index.js       # Server entry point
 │
 └── README.md          # Project Documentation
+```
+
+---
+
+## Author
+
+**Abhishek Vimal Mevada**
+
+**Frontend Developer | React.js Developer | JavaScript | HTML | CSS | Tailwind CSS | Bootstrap | MERN Stack Enthusiast**
