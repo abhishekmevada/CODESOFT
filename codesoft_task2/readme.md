@@ -88,3 +88,12 @@ project-management-tool/
 │   └── index.js
 │
 └── README.md
+```
+
+---
+
+## Author
+
+**Abhishek Vimal Mevada**
+
+**Frontend Developer | React.js Developer | JavaScript | HTML | CSS | Tailwind CSS | Bootstrap | MERN Stack Enthusiast**
